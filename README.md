@@ -1,5 +1,5 @@
 # SHA1HashBreaker
-Assignment 2 Blockchain
+Homework 2 Blockchain
 CSC 4980 / 6980 Blockchain & Applications
 Abdullahi Abdi
 
