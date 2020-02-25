@@ -6,7 +6,7 @@ Abdullahi Abdi
 
 SHA1 Hash Breaker
 
-About My Code
+Purpose
 
 This code has two distinct functions, the breaker and saltHash function. Each of these functions break SHA1 hashes, with the breaker.py program it takes in one arguement( a SHA1Hash) and compares it with the hash of each of our given 10-million-password-list.txt file to see if that hash matches one of the hatches in the list to find the password. The saltHash function is a salt-hash meaning that som random string was concatened to the password before it was hashed, therefore changing the hash so that it doesn't match any of the hashes in our .txt file. My fix was first adding the salt string to each of the passwords in the list, then hashing them and seeing if it matches the full hash1 we were given, if we find a match we then know the password added to the salt was the password to the hash we were given.
 
